@@ -5,7 +5,7 @@ import dearpygui.dearpygui as dpg
 
 import random, variables
 
-imap = IMAP("imap.yandex.ru", "lolfontan@yandex.ru", "FONTANNEL0L")
+imap = IMAP("imap.yandex.ru", "", "")
 
 def please_wait():
     with dpg.window(label="Ожидание...", id="wait_task",
